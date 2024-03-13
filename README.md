@@ -4,7 +4,7 @@
 
 - `components`: Individual widgets for Custom Top Bar, Bottom App Bar and Holding Widgets
 - `model`: data classes for API response.
-- `repository`: Data repositories to manipulate and Store API response in proper class. Includes an interface for API calls.
+- `repository`: Contains a Data repository to manipulate and store API response in proper class. Also includes an interface for API calls.
 - `ui`: Theme and Typography
 - `MainActivity.kt`: Main activity of the app. 
 
@@ -19,8 +19,8 @@ This way the business logic of calculations and views are separated.
 
 User click on the `CustomBottomBar` toggles the expanded state. This widget doesn't show if there are no holdings.
 
-The `DataRepository` class and `ApiService` interface allow adding new endpoints quickly while maintaining compatiblity with existing ones.
-This is acheived by using retrofit. Moshi allows us to create factories to serialise and deserialise response objects.
+The `DataRepository` class and `ApiService` interface allow adding new endpoints quickly while maintaining compatibility with existing ones.
+This is achieved by using retrofit. Moshi allows us to create factories to serialise and deserialize response objects.
 
 ### | Architecture:
 

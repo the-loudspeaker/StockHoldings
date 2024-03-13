@@ -11,21 +11,3 @@ interface ApiService {
     @GET("/v3/bde7230e-bc91-43bc-901d-c79d008bddc8")
     suspend fun getData(): StockResponse
 }
-
-class DataRepository {
-
-    private val moshi = Moshi.Builder()
-        .add(KotlinJsonAdapterFactory())
-        .build()
-
-    private val retrofit = Retrofit.Builder()
-        .baseUrl("https://run.mocky.io")
-        .addConverterFactory(MoshiConverterFactory.create(moshi))
-        .build()
-
-    private val apiService = retrofit.create(ApiService::class.java)
-
-    suspend fun getData(): StockResponse {
-        return apiService.getData()
-    }
-}
