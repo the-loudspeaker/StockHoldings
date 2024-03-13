@@ -19,7 +19,7 @@ class DataRepository {
         .build()
 
     private val retrofit = Retrofit.Builder()
-        .baseUrl("https://run.mocky.io") // Replace with your actual base URL
+        .baseUrl("https://run.mocky.io")
         .addConverterFactory(MoshiConverterFactory.create(moshi))
         .build()
 
