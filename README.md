@@ -28,6 +28,9 @@ The project uses MVVM architecture. The user input goes to the `view`. (`CustomB
 <br>
 The logic of converting API response into usable Object lies in the `DataRepository` and business logic of calculating values specific to a model lie in `StockResponse` `model`.
 
+### | Kotlin version
+The project uses version 1.9.22 of kotlin. The latest is 1.9.23 but it is not supported by the compose compiler yet so cannot be used.
+
 ### | Building & running:
 A run configuration is included in the project. Just clicking run in Android studio will run the app.
 
