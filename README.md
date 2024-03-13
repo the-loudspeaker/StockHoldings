@@ -1,6 +1,6 @@
 ## Assignment for Upstox.
 
-### | project srtructure:
+### | project structure:
 
 - `components`: Individual widgets for Custom Top Bar, Bottom App Bar and Holding Widgets
 - `model`: data classes for API response.
@@ -30,3 +30,6 @@ The logic of converting API response into usable Object lies in the `DataReposit
 
 ### | Building & running:
 A run configuration is included in the project. Just clicking run in Android studio will run the app.
+
+### | APK:
+The final built APK can be found [here](https://drive.google.com/file/d/1v82KcWfH-VLrRhKtgVMr8t_eEIAK400t/view?usp=sharing) on drive.
