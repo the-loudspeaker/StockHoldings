@@ -36,3 +36,6 @@ A run configuration is included in the project. Just clicking run in Android stu
 
 ### | APK:
 The final built APK can be found [here](https://drive.google.com/file/d/1v82KcWfH-VLrRhKtgVMr8t_eEIAK400t/view?usp=sharing) on drive.
+
+### | Screenshots:
+![image 1](https://raw.githubusercontent.com/the-loudspeaker/StockHoldings/main/screenshots/Screenshot%20from%202024-04-11%2012-24-38.png) ![image 2](https://github.com/the-loudspeaker/StockHoldings/blob/main/screenshots/Screenshot%20from%202024-04-11%2012-24-45.png?raw=true)
